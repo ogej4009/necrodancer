@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GameDebug.h" />
+    <ClInclude Include="GameDic.h" />
+    <ClInclude Include="GameFile.h" />
+    <ClInclude Include="GameGraphic.h" />
+    <ClInclude Include="GameImage.h" />
+    <ClInclude Include="GameInput.h" />
+    <ClInclude Include="GameMath.h" />
+    <ClInclude Include="GamePath.h" />
+    <ClInclude Include="GameSound.h" />
+    <ClInclude Include="GameTex.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="GameWin.h" />
+    <ClInclude Include="GameMacro.h" />
+    <ClInclude Include="GameTexMgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameDebug.cpp" />
+    <ClCompile Include="GameDic.cpp" />
+    <ClCompile Include="GameFile.cpp" />
+    <ClCompile Include="GameImage.cpp" />
+    <ClCompile Include="GameInput.cpp" />
+    <ClCompile Include="GameMath.cpp" />
+    <ClCompile Include="GamePath.cpp" />
+    <ClCompile Include="GameSound.cpp" />
+    <ClCompile Include="GameTex.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="GameWin.cpp" />
+    <ClCompile Include="GameTexMgr.cpp" />
+  </ItemGroup>
+</Project>

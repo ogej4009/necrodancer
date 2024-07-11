@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ValueData.h" />
+    <ClInclude Include="BaseUpdater.h" />
+    <ClInclude Include="ClientUpdater.h" />
+    <ClInclude Include="Armor.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Helmet.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Stair.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopKeeper.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Diamond_UI.h">
+      <Filter>Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gold_UI.h">
+      <Filter>Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gold.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyTar.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Text.h">
+      <Filter>Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterHeart.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBar.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Torch.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopItem.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopFloor.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="StairLock.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorScene.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueSlime.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="CoralHead.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Drum.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenSlime.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Horn.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monkey.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Minotaur.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="MonString.h">
+      <Filter>Actor\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorSub.h">
+      <Filter>Actor\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActor.h">
+      <Filter>Actor\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCol.h">
+      <Filter>Actor\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="AniRender.h">
+      <Filter>Actor\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRender.h">
+      <Filter>Actor\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="TileRender.h">
+      <Filter>Actor\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBackWall.h">
+      <Filter>Actor\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDoor.h">
+      <Filter>Actor\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Actor\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWall.h">
+      <Filter>Actor\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditor.h">
+      <Filter>Actor\Setting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseUpdater.cpp" />
+    <ClCompile Include="ClientUpdater.cpp" />
+    <ClCompile Include="Armor.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Helmet.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopKeeper.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Stair.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Diamond_UI.cpp">
+      <Filter>Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Gold_UI.cpp">
+      <Filter>Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Gold.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyTar.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Text.cpp">
+      <Filter>Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterHeart.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBar.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Torch.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopFloor.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopItem.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="StairLock.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorScene.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueSlime.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="CoralHead.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Drum.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenSlime.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Horn.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFsm.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Minotaur.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="MonString.cpp">
+      <Filter>Actor\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorSub.cpp">
+      <Filter>Actor\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActor.cpp">
+      <Filter>Actor\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCol.cpp">
+      <Filter>Actor\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="AniRender.cpp">
+      <Filter>Actor\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRender.cpp">
+      <Filter>Actor\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="TileRender.cpp">
+      <Filter>Actor\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBackWall.cpp">
+      <Filter>Actor\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDoor.cpp">
+      <Filter>Actor\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Actor\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWall.cpp">
+      <Filter>Actor\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditor.cpp">
+      <Filter>Actor\Setting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{375a3527-2818-4278-9e8f-5d45c79d3576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{b4457c23-ea4f-4926-b4da-766693de489f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Mon">
+      <UniqueIdentifier>{4ae941ac-c93d-4aa8-a2dc-953237464e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Player">
+      <UniqueIdentifier>{03c541a2-fc0b-490e-8d6b-7c88ace5c49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\UI">
+      <UniqueIdentifier>{290d9069-0047-47be-850d-973b7d8eecbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Head">
+      <UniqueIdentifier>{78fda4a6-37e9-4265-a8c9-6cc5faddd708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Setting">
+      <UniqueIdentifier>{48ace4c1-9d8b-46f6-b2de-51f14ee526fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
