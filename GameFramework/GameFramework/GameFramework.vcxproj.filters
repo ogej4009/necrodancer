@@ -341,6 +341,7 @@
     <ClCompile Include="MapEditor.cpp">
       <Filter>Actor\Setting</Filter>
     </ClCompile>
+    <ClCompile Include="ProjWin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Actor">

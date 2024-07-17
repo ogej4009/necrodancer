@@ -1,9 +1,10 @@
 #pragma once
-#include <fmod.hpp>
+
 #include <map>
 #include <list>
 #include "GameFile.h"
 
+#include "..\tp\FMOD\x64\fmod.hpp"
 
 //dll의 경우 32비트 64비트 나누는 방법을 어떻게 적용해야 하나?
 class GameSound

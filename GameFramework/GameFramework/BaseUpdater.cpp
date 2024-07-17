@@ -31,3 +31,4 @@ BaseUpdater::BaseUpdater() : m_bDeath(false), m_bUpdate(true)
 BaseUpdater::~BaseUpdater()
 {
 }
+// WinMain

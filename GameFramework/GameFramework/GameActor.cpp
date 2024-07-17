@@ -11,15 +11,15 @@
 
 #ifdef RELEASEMODE
 #ifdef X32
-#pragma comment(lib, "GameRequired_R32.lib")
+#pragma comment(lib, "GameRequired.lib")
 #else X64
-#pragma comment(lib, "GameRequired_R64.lib")
+#pragma comment(lib, "GameRequired.lib")
 #endif
 #else DEBUGMODE
 #ifdef X32
-#pragma comment(lib, "GameRequired_D32.lib")
+#pragma comment(lib, "GameRequired.lib")
 #else X64
-#pragma comment(lib, "GameRequired_D64.lib")
+#pragma comment(lib, "GameRequired.lib")
 #endif
 #endif
 

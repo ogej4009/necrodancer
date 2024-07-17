@@ -1,5 +1,5 @@
 //#include "stdafx.h"
-#include "GAMERENDER.h"
+#include "GameRender.h"
 #include <GameTexMgr.h>
 #include "GameActor.h"
 #include "GameState.h"
